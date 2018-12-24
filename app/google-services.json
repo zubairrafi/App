@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "185003874898",
+    "firebase_url": "https://dcbfirebaseproject.firebaseio.com",
+    "project_id": "dcbfirebaseproject",
+    "storage_bucket": "dcbfirebaseproject.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:185003874898:android:131761d5f11163c1",
+        "android_client_info": {
+          "package_name": "com.example.tanvirhossain.dcb.app"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "185003874898-kobaa7jurme9vi72ttusqjk7v8jks6di.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.tanvirhossain.dcb.app",
+            "certificate_hash": "b8ddf4b2de7426728ae0affab32eb501ba4ae621"
+          }
+        },
+        {
+          "client_id": "185003874898-alsa4hbiia6he43hi2l4ookn83iv5p1s.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCO-1l4P2H8KeVT8QSZSYsdsOJ6HMSoYb0"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "185003874898-alsa4hbiia6he43hi2l4ookn83iv5p1s.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

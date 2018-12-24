@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".SignUp">
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="276dp"
+        android:layout_height="167dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="11dp"
+        app:srcCompat="@drawable/signin" />
+
+    <EditText
+        android:id="@+id/username_field"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="189dp"
+        android:drawableLeft="@drawable/ic_action_user"
+        android:ems="10"
+        android:hint="Name"
+
+
+        android:inputType="textPersonName" />
+
+    <EditText
+        android:id="@+id/passwordsign_field"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+
+        android:layout_centerInParent="true"
+        android:drawableLeft="@drawable/ic_action_password"
+        android:ems="10"
+        android:hint="Password"
+        android:inputType="textPassword" />
+
+    <EditText
+        android:id="@+id/email_field"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="122dp"
+        android:drawableLeft="@drawable/ic_action_mail"
+        android:ems="10"
+        android:hint="Email here.."
+        android:inputType="textEmailAddress" />
+
+    <Button
+        android:id="@+id/Signupbtn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="57dp"
+        android:background="@drawable/buttonback"
+        android:text="Sign Up" />
+
+    <EditText
+        android:id="@+id/repassword"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="189dp"
+        android:drawableLeft="@drawable/ic_action_reg"
+        android:ems="10"
+        android:hint="Registration No."
+        android:inputType="textPassword" />
+
+    <TextView
+        android:id="@+id/textView19"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginBottom="21dp"
+        android:layout_marginStart="78dp"
+        android:text="Already have an account?" />
+
+    <TextView
+        android:id="@+id/loginbtn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignEnd="@+id/imageView"
+        android:layout_alignTop="@+id/textView19"
+        android:text=" Login here.."
+        android:textColor="#33B5E5" />
+
+</RelativeLayout>
